@@ -15,7 +15,7 @@ Static Info Tables (da)
 .. only:: html
 
 	:Classification:
-		extension_key
+		static_info_tables_da
 
 	:Version:
 		|release|
@@ -24,10 +24,10 @@ Static Info Tables (da)
 		en
 
 	:Description:
-		enter description.
+		Provides Danish translations for static_info_tables
 
 	:Keywords:
-		comma,separated,list,keywords
+		translation pack
 
 	:Copyright:
 		2015
