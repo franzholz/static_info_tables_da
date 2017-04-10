@@ -1,5 +1,6 @@
 2017-04-10  Franz Holzinger  <franz@ttproducts.de>
     * modify extension version
+    * add a composer.json file
 
 2017-03-11  Franz Holzinger  <franz@ttproducts.de>
     * ready for TYPO3 8.x
