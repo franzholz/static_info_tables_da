@@ -25,61 +25,61 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /**
- * The Currency model
- *
- * @copyright Copyright belongs to the respective authors
- * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
- */
+* The Currency model
+*
+* @copyright Copyright belongs to the respective authors
+* @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
+*/
 class Currency extends AbstractEntity {
-	/**
-	 * Danish name of the currency
-	 * @var string
-	 */
-	protected $nameDa = '';
+    /**
+    * Danish name of the currency
+    * @var string
+    */
+    protected $nameDa = '';
 
-	/**
-	 * Danish name of the currency subdivision unit
-	 * @var string
-	 */
-	protected $subdivisionNameDa = '';
+    /**
+    * Danish name of the currency subdivision unit
+    * @var string
+    */
+    protected $subdivisionNameDa = '';
 
-	/**
-	 * Sets the Danish name of the currency
-	 *
-	 * @param string $nameDa
-	 *
-	 * @return void
-	 */
-	public function setNameDa($nameDa) {
-		$this->nameDa = $nameDa;
-	}
+    /**
+    * Sets the Danish name of the currency
+    *
+    * @param string $nameDa
+    *
+    * @return void
+    */
+    public function setNameDa($nameDa) {
+        $this->nameDa = $nameDa;
+    }
 
-	/**
-	 * Gets the Danish name of the currency
-	 *
-	 * @return string
-	 */
-	public function getNameDa() {
-		return $this->nameDa;
-	}
+    /**
+    * Gets the Danish name of the currency
+    *
+    * @return string
+    */
+    public function getNameDa() {
+        return $this->nameDa;
+    }
 
-	/**
-	 * Sets the Danish name of the currency subdivision
-	 *
-	 * @param string $subdivisionNameDa
-	 *
-	 * @return void
-	 */
-	public function setSubdivisionNameDa($subdivisionNameDa) {
-		$this->subdivisionNameDa = $subdivisionNameDa;
-	}
+    /**
+    * Sets the Danish name of the currency subdivision
+    *
+    * @param string $subdivisionNameDa
+    *
+    * @return void
+    */
+    public function setSubdivisionNameDa($subdivisionNameDa) {
+        $this->subdivisionNameDa = $subdivisionNameDa;
+    }
 
-	/**
-	 * Gets the Danish name of the currency subdivision
-	 *
-	 * @return string
-	 */
-	public function getSubdivisionNameDa() {
-		return $this->subdivisionNameDa;
-	}
+    /**
+    * Gets the Danish name of the currency subdivision
+    *
+    * @return string
+    */
+    public function getSubdivisionNameDa() {
+        return $this->subdivisionNameDa;
+    }
 }

@@ -25,35 +25,35 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /**
- * The Territory model
- *
- * @copyright Copyright belongs to the respective authors
- * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
- */
+* The Territory model
+*
+* @copyright Copyright belongs to the respective authors
+* @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
+*/
 class Territory extends AbstractEntity {
-	/**
-	 * Danish name of the territory
-	 * @var string
-	 */
-	protected $nameDa = '';
+    /**
+    * Danish name of the territory
+    * @var string
+    */
+    protected $nameDa = '';
 
-	/**
-	 * Sets the Danish name of the territory
-	 *
-	 * @param string $nameDa
-	 *
-	 * @return void
-	 */
-	public function setNameDa($nameDa) {
-		$this->nameDa = $nameDa;
-	}
+    /**
+    * Sets the Danish name of the territory
+    *
+    * @param string $nameDa
+    *
+    * @return void
+    */
+    public function setNameDa($nameDa) {
+        $this->nameDa = $nameDa;
+    }
 
-	/**
-	 * Returns the Danish name of the territory
-	 *
-	 * @return string
-	 */
-	public function getNameDa() {
-		return $this->nameDa;
-	}
+    /**
+    * Returns the Danish name of the territory
+    *
+    * @return string
+    */
+    public function getNameDa() {
+        return $this->nameDa;
+    }
 }

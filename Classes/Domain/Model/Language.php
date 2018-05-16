@@ -26,35 +26,35 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 ***************************************************************/
 
 /**
- * The Language model
- *
- * @copyright Copyright belongs to the respective authors
- * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
- */
+* The Language model
+*
+* @copyright Copyright belongs to the respective authors
+* @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
+*/
 class Language extends AbstractEntity {
-	/**
-	 * Danish name of the language
-	 * @var string
-	 */
-	protected $nameDa = '';
+    /**
+    * Danish name of the language
+    * @var string
+    */
+    protected $nameDa = '';
 
-	/**
-	 * Sets the Danish name of the language
-	 *
-	 * @param string $nameDanish
-	 *
-	 * @return void
-	 */
-	public function setNameDa($nameDa) {
-		$this->nameDa = $nameDa;
-	}
+    /**
+    * Sets the Danish name of the language
+    *
+    * @param string $nameDanish
+    *
+    * @return void
+    */
+    public function setNameDa($nameDa) {
+        $this->nameDa = $nameDa;
+    }
 
-	/**
-	 * Gets the Danish name of the language
-	 *
-	 * @return string
-	 */
-	public function getNameDa() {
-		return $this->nameDa;
-	}
+    /**
+    * Gets the Danish name of the language
+    *
+    * @return string
+    */
+    public function getNameDa() {
+        return $this->nameDa;
+    }
 }
