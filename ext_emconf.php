@@ -5,7 +5,7 @@ $EM_CONF[$_EXTKEY] = Array (
 	'description' => 'Danish (da) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
 	'category' => 'misc',
 	'shy' => 0,
-	'version' => '6.4.3',
+	'version' => '6.4.4',
 	'priority' => '',
 	'loadOrder' => '',
 	'module' => '',
@@ -30,5 +30,4 @@ $EM_CONF[$_EXTKEY] = Array (
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => '',
 );
