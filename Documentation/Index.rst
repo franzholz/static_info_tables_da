@@ -30,7 +30,7 @@ Static Info Tables (da)
 		translation pack
 
 	:Copyright:
-		2015
+		2019
 
 	:Author:
 		Franz Holzinger
