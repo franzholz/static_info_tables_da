@@ -28,7 +28,7 @@ return [
     \SJBR\StaticInfoTables\Domain\Model\Country::class => [
         'tableName' => 'static_countries',
         'properties' => [
-            'shortNameDe' => [
+            'shortNameDa' => [
                 'fieldName' => 'cn_short_da',
             ],
         ], 
@@ -47,7 +47,7 @@ return [
             'nameDa' => [
                 'fieldName' => 'cu_name_da',
             ],
-            'subdivisionNameDe' => [
+            'subdivisionNameDa' => [
                 'fieldName' => 'cu_sub_name_da',
             ],
         ],
