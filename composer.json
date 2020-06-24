@@ -1,5 +1,5 @@
 {
-  "name": "jambagecom/static-info-tables-da",
+  "name": "sjbr/static-info-tables-da",
   "type": "typo3-cms-extension",
   "description": "Danish (da) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
   "license": "GPL-2.0-or-later",
