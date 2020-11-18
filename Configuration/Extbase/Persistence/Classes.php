@@ -56,7 +56,7 @@ return [
         'tableName' => 'static_languages',
         'properties' => [
             'nameDa' => [
-                'lg_name_da' => 'cu_name_da',
+                'fieldName' => 'lg_name_da',
             ],
         ],
     ],
@@ -64,7 +64,7 @@ return [
         'tableName' => 'static_territories',
         'properties' => [
             'nameDa' => [
-                'tr_name_da' => 'cu_name_da',
+                'fieldName' => 'tr_name_da',
             ],
         ],
     ],
