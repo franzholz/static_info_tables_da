@@ -1,3 +1,7 @@
+2022-01-20  Franz Holzinger  <franz@ttproducts.de>
+    * compatibility with TYPO3 10: Remove file class.ext_update.php
+    * add requirement for the extension addons_em: This is needed for the Extension Manager if the file ext_tables_static+adt.sql has been modified manually by the admin.
+
 2022-01-11  Franz Holzinger  <franz@ttproducts.de>
     * compatibility with PHP 8: Remove the check for a PHP version.
 
