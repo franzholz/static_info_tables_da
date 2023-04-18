@@ -23,7 +23,8 @@
  ***********************************************************************************/
 
 
-declare(strict_types=1);
+declare(strict_types = 1);
+
 return [
     \SJBR\StaticInfoTables\Domain\Model\Country::class => [
         'tableName' => 'static_countries',
@@ -31,7 +32,7 @@ return [
             'shortNameDa' => [
                 'fieldName' => 'cn_short_da',
             ],
-        ], 
+        ],
     ],
     \SJBR\StaticInfoTables\Domain\Model\CountryZone::class => [
         'tableName' => 'static_country_zones',
