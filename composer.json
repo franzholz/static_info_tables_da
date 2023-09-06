@@ -3,12 +3,6 @@
   "type": "typo3-cms-extension",
   "description": "Danish (da) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
   "license": "GPL-2.0-or-later",
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://composer.typo3.org"
-    }
-  ],
   "keywords": [
     "TYPO3 CMS",
     "Static Info Tables"
@@ -28,9 +22,9 @@
     "typo3-ter/static-info-tables-da": "self.version"
   },
   "require": {
-    "typo3/cms-core": "^10.4 || ^11.5 || ^12.4",
-    "sjbr/static-info-tables": "^6.9 || ^11.5 || ^12.4",
-    "jambagecom/addons-em": "^0.6"
+    "typo3/cms-core": "^11.5 || ^12.4",
+    "sjbr/static-info-tables": "^11.5 || ^12.4",
+    "jambagecom/addons-em": "^0.8.2"
   },
   "extra": {
     "typo3/cms": {
