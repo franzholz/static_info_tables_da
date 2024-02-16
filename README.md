@@ -1,5 +1,5 @@
 [![TYPO3](https://img.shields.io/badge/TYPO3-Extension-orange?logo=TYPO3)](https://extensions.typo3.org/extension/static_info_tables_da)
-[![Monthly Downloads](https://poser.pugx.org/jambagecom/static-static_info_tables_da/d/monthly)](https://packagist.org/packages/jambagecom/static-static_info_tables_da)
+[![Monthly Downloads](https://poser.pugx.org/jambagecom/static-info-tables-da/d/monthly)](https://packagist.org/packages/jambagecom/static-info-tables-da)
 
 # TYPO3 extension static_info_tables_da
 
